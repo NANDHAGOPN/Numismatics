@@ -5,10 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Contact</title>
+  <title>NUMISMATICS</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -45,41 +46,30 @@
       <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>PhotoFolio</h1>
+        <i class="bi bi-coin"></i>
+        <i class="fa-sharp fa-solid fa-coins"></i>
+        <h1>NUMISMATICS</h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="about.html" class="active">About</a></li>
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
-              <li><a href="gallery.html">Architecture</a></li>
-              <li><a href="gallery.html">Animals</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+              <li><a href="gallery-top ones.html">Top Ones</a></li>
+              <li><a href="gallery-5rupee.html">5 Rupee</a></li>
+              <li><a href="gallery-10 rupee.html">10 Rupee</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://github.com/NANDHAGOPN" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/nandha.gopan.9277" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/numis_locky/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nandhagopan-g-173a41255/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+       
       </div>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -95,7 +85,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>Contact</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
 
           </div>
         </div>
@@ -113,7 +103,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Thiruvananthapuram,Kerala</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -123,7 +113,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>nandhagopanunni@gmail.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -142,50 +132,77 @@
 
         <div class="row justify-content-center mt-4">
 
-          <div class="col-lg-9">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            <div class="column">
+                <form id="submit-form" action="">
+                 
+                    <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                 </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
+                <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    <br>
+                <div class="text-center bg color=black"><button type="submit">Send Message</button></div></div>
+                  
+                </form>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="column">
+                
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+          </div>
+          <script>
+            $("#submit-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbztmg9mp9vuMv3scmIE2S2t6qMvB1N4f-zuFSi6MkWrV5XVsXc_BCdHnCWY9IljlYrp/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        alert("Form submitted successfully")
+                        window.location.reload()
+                        //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                        alert("Something Error")
+        
+                    }
+                })
+            })
+        </script>
 
-        </div>
+  
+       
 
       </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+   <!-- ======= Footer ======= -->
+   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>PhotoFolio</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>numismatics</span></strong>. All Rights Reserved
+        <br>
+        <a href="https://github.com/NANDHAGOPN" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/nandha.gopan.9277" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/numis_locky/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nandhagopan-g-173a41255/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Nandhagopan</a>
       </div>
     </div>
   </footer><!-- End Footer -->
